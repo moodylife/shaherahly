@@ -1063,7 +1063,7 @@ message.channel.send("**!-#- Welcome To ShaherAhly Server ** :dove: ");
 });
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'squáaash');
+    let channel = member.guild.channels.find('name', '》puplic-chat');
     let memberavatar = member.user.avatarURL
       if (!channel) return;
     let embed = new Discord.RichEmbed()
@@ -1077,7 +1077,7 @@ client.on('guildMemberAdd', member => {
     .addField('•🕣|Time Create » مدة انشاء حسابك', member.user.createdAt.toLocaleString(), true)
  
                                        
-     .setFooter("LegendGang")
+     .setFooter("byzMoody_")
         .setTimestamp()
    
       channel.sendEmbed(embed);
